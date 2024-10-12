@@ -28,6 +28,7 @@ public class DnaService {
             dna.setMutante(true);
         }
 
+        dnaRepository.save(dna);
         return dna;
     }
 
